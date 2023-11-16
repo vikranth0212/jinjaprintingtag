@@ -19,5 +19,6 @@ from django.urls import path
 from jinjaprintingtag.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('data_render/',data_render,name='data_render')
+    path('data_render/',data_render,name='data_render'),
+    path('loginpage/',loginpage,name='loginpage')
 ]
